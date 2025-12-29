@@ -6,7 +6,7 @@ Background
 
 With the rapid digitization of governance services in India, e-office systems have become central to document storage, retrieval, and decision-making—especially for rural administration and outreach programs. However, these systems increasingly suffer from severe document redundancy, leading to inefficient storage utilization, slow retrieval, and poor traceability of official records.
 
-In rural e-office environments, documents are often:
+->In rural e-office environments, documents are often:
 
 Scanned multiple times due to lack of standardized workflows
 
@@ -18,7 +18,7 @@ Stored without reliable unique identifiers or version tracking
 
 As a result, the same logical document may exist in multiple near-identical forms, making traditional exact-match or hash-based deduplication techniques ineffective.
 
-Problem
+->Problem
 
 Existing document deduplication solutions primarily rely on:
 
@@ -48,7 +48,7 @@ Reduced trust in digital governance systems
 
 Difficulty in auditing and compliance
 
-Research Gap
+->Research Gap
 
 There is a lack of an intelligent, semantic-aware document deduplication framework that:
 
@@ -62,21 +62,21 @@ Is practical for rural e-office deployments
 
 Most existing systems address deduplication as a binary storage optimization problem, rather than as a semantic document management challenge.
 
-Objective
+->Objective
 
 The objective of this project is to design, implement, and deploy an intelligent document deduplication system for rural e-office archives that:
 
-Detects duplicate and near-duplicate documents using semantic similarity, not just exact matching
+1.Detects duplicate and near-duplicate documents using semantic similarity, not just exact matching
 
-Is robust to OCR errors, formatting variations, and minor edits
+2.Is robust to OCR errors, formatting variations, and minor edits
 
-Supports hierarchical deduplication at page, section, and document levels
+3.Supports hierarchical deduplication at page, section, and document levels
 
-Maintains a traceable document lineage graph for audit and compliance
+4.Maintains a traceable document lineage graph for audit and compliance
 
-Is deployable as a real-world application suitable for government use
+5.Is deployable as a real-world application suitable for government use
 
-Expected Impact
+->Expected Impact
 
 The proposed system aims to:
 
